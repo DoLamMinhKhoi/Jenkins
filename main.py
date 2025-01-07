@@ -16,4 +16,3 @@ def check_prime(number: int):
         if number % i == 0:
             return {"number": number, "is_prime": False}
     return {"number": number, "is_prime": True}
-
